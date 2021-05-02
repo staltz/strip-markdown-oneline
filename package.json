@@ -1,0 +1,29 @@
+{
+  "name": "strip-markdown-oneline",
+  "version": "1.0.0",
+  "description": "Converts markdown text to a single line without markdown syntax",
+  "repository": "https://github.com/staltz/strip-markdown-oneline",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test.js"
+  },
+  "author": "staltz.com",
+  "license": "MIT",
+  "keywords": [
+    "unified",
+    "remark",
+    "mdast",
+    "markdown",
+    "unist"
+  ],
+  "dependencies": {
+    "nlcst-to-string": "^2.0.4",
+    "remark-parse": ">=5.0.0",
+    "remark-retext": "^4.0.0",
+    "retext-english": "^3.0.4",
+    "unified": ">=6.2.0"
+  },
+  "devDependencies": {
+    "tape": "^5.2.0"
+  }
+}
