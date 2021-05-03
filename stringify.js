@@ -1,4 +1,4 @@
-var toString = require('nlcst-to-string')
+var toString = require('./nlcst-to-string')
 
 module.exports = stringify
 
