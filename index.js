@@ -11,5 +11,5 @@ module.exports = function stripMarkdownOneline(input) {
     .use(stringify)
     .processSync(input);
 
-  return file.contents.trim().replace(/ +/g, ' ');
+  return file.contents.trim().replace(/ +/g, ' ').replace(/\n/g, '');
 };
