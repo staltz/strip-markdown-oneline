@@ -1,6 +1,6 @@
 {
   "name": "strip-markdown-oneline",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Converts markdown text to a single line without markdown syntax",
   "repository": "https://github.com/staltz/strip-markdown-oneline",
   "main": "index.js",
