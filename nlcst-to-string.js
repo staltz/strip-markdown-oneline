@@ -16,11 +16,7 @@ function nlcstToString(node, separator) {
     return node.value
   }
 
-  if (node.type === 'break') {
-    return ''
-  }
-
-  children = 'length' in node ? node : node.children
+  children = ('length' in node ? node : node.children) || []
   length = children.length
 
   // Shortcut: This is pretty common, and a small performance win.
