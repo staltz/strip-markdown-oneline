@@ -21,7 +21,7 @@
     "remark-parse": ">=5.0.0",
     "remark-retext": "^4.0.0",
     "retext-english": "^3.0.4",
-    "unified": ">=6.2.0"
+    "unified": ">=6.2.0 <9"
   },
   "devDependencies": {
     "tape": "^5.2.0"
