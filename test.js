@@ -34,3 +34,18 @@ Second: segundo
   const output = stripMarkdownOneline(input);
   t.equal(output, 'Title First: primeiro Second: segundo');
 });
+
+test('ignore html', (t) => {
+  t.plan(1);
+
+  const input = `
+# Title
+
+<p>First: primeiro</p>
+
+Second: segundo
+`;
+
+  const output = stripMarkdownOneline(input);
+  t.equal(output, 'Title Second: segundo');
+});

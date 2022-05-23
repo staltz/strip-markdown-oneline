@@ -21,7 +21,8 @@
     "remark-parse": ">=5.0.0 <7",
     "remark-retext": "^4.0.0",
     "retext-english": "^3.0.4",
-    "unified": ">=6.2.0 <9"
+    "unified": ">=6.2.0 <9",
+    "unist-util-filter": ">=2.0.0 <3"
   },
   "devDependencies": {
     "tap-arc": "^0.3.4",
