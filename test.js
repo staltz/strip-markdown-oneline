@@ -21,14 +21,16 @@ This is a link: [search engine](https://duckduckgo.com)
 test('handles trailing spaces', (t) => {
   t.plan(1);
 
-  const input = `
+  const input =
+    `
 # Title
 
-First: primeiro  
+First: primeiro` +
+    '  ' +
+    `
 Second: segundo
 `;
 
   const output = stripMarkdownOneline(input);
-  console.log(output)
   t.equal(output, 'Title First: primeiro Second: segundo');
 });

@@ -5,7 +5,7 @@
   "repository": "https://github.com/staltz/strip-markdown-oneline",
   "main": "index.js",
   "scripts": {
-    "test": "tape test.js"
+    "test": "tape test.js | tap-arc"
   },
   "author": "staltz.com",
   "license": "MIT",
@@ -18,12 +18,13 @@
   ],
   "dependencies": {
     "nlcst-to-string": "^2.0.4",
-    "remark-parse": ">=5.0.0",
+    "remark-parse": ">=5.0.0 <7",
     "remark-retext": "^4.0.0",
     "retext-english": "^3.0.4",
     "unified": ">=6.2.0 <9"
   },
   "devDependencies": {
+    "tap-arc": "^0.3.4",
     "tape": "^5.2.0"
   }
 }
